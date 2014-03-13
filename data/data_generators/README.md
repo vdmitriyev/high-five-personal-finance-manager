@@ -20,8 +20,4 @@ python generate_data_from_original.py > generated_data.csv
 
 Known Problems and Drawbacks
 ============================
-* Code written an hurry
-
-Credits
-=======
-* 
+* Code was written an hurry.
