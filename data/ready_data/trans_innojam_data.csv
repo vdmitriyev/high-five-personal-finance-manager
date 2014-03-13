@@ -1,0 +1,366 @@
+ID;USER_ID;AMOUNT;TRAN_DATE;POST_DATE;CATEGORY_TEXT;DESCRIPTION
+1;1;-67;2014-01-03;2014-01-03;Supermarkets;Misburger Str. 81d, Hannover
+2;3;-58.2;2014-01-11;2014-01-11;Loan;Expo-Plaza 11, 30539 Hannover-Bemerode
+3;2;-12.6;2014-01-15;2014-01-17;Energy;Expo. 1E, 30161 Hannover-List
+4;3;-3.76;2014-01-15;2014-01-17;RandomServices;4696 Little Route, Freeland, Iowa, 52455-5289, US, (712) 876-6382
+5;1;-7.71;2014-01-15;2014-01-17;RandomServices;3912 Fallen Crest, Loreburn, Nebraska, 69035-0197, US, (308) 892-6391
+6;4;-5.88;2014-01-15;2014-01-17;Travel;Am Lindenhofe 23, 30519 Hannover-Dohren
+7;1;-108;2014-01-17;2014-01-17;Energy;Kriegerstr. 1E, 30161 Hannover-List
+8;2;-27.9;2014-01-17;2014-01-17;Energy;Kriegerstr. 1E, 30161 Hannover-List
+9;2;-3.91;2014-01-17;2014-01-17;Supermarkets;Hannoversche Str. 16, 30629 Hannover-Misburg-Nord
+10;1;-6.22;2014-01-18;2014-01-18;Supermarkets;Misburger Str. 81d, Hannover
+11;2;-3.92;2014-01-18;2014-01-18;Supermarkets;Hannoversche Str. 16, 30629 Hannover-Misburg-Nord
+12;1;-9.8;2014-01-19;2014-01-19;RandomServices;8873 Stony Mountain Limits, Normal, New Brunswick, E0B-4C2, CA, (506) 772-2667
+13;2;-5.22;2014-01-20;2014-01-20;Entertainment;Gustav-Adolf-Str. 11, 30167 Hannover-Nordstadt
+14;3;-132;2014-01-20;2014-01-20;Energy;Expo. 1E, 30161 Hannover-List
+15;1;-24.93;2014-01-21;2014-01-21;Supermarkets;Hannoversche Str. 16, 30629 Hannover-Misburg-Nord
+16;3;-8.7;2014-01-21;2014-01-21;RandomServices;8760 Golden Mall , Poorman, Iowa, 51296-9577, US, (712) 855-7400
+17;1;-88.9;2014-01-22;2014-01-22;Cafes;Theodor-Heuss-Platz 1-3, 30175 Hannover-Zoo
+18;3;-10.14;2014-01-22;2014-01-22;Auto;Lindenhofe 25, 30519 Hannover-Dohren
+19;4;-16.1;2014-01-23;2014-01-23;Cafes;Expo-Plaza 10, 30539 Hannover-Bemerode
+20;3;-10.23;2014-01-24;2014-01-24;Loan;Am Lindenhofe 23, 30519 Hannover-Dohren
+21;2;-2.83;2014-01-24;2014-01-24;Auto;Lindenhofe 25, 30519 Hannover-Dohren
+22;4;-3.6;2014-01-25;2014-01-25;Auto;Lindenhofe 25, 30519 Hannover-Dohren
+23;2;-12.4;2014-01-26;2014-01-26;Cafes;Kirchrosder Str. 54, 30625 Hannover-Kleefeld
+24;1;-9.8;2014-01-26;2014-01-26;Taxi;Sohnreystr. 18, 30173 Hannover-Sudstadt
+25;3;-32.25;2014-01-28;2014-01-28;Auto;Lindenhofe 25, 30519 Hannover-Dohren
+26;4;-22;2014-02-01;2014-02-01;Energy;Expo. 1E, 30161 Hannover-List
+27;3;-55.08;2014-02-03;2014-02-03;Loan;Am Lindenhofe 23, 30519 Hannover-Dohren
+28;2;-455.44;2014-02-05;2014-02-05;Travel;Am Lindenhofe 23, 30519 Hannover-Dohren
+29;2;-372.28;2014-02-05;2014-02-05;Cafes;Expo-Plaza 10, 30539 Hannover-Bemerode
+30;1;-35.43;2014-02-05;2014-02-05;Supermarkets;Misburger Str. 81d, Hannover
+31;1;-52.68;2014-02-07;2014-02-07;Energy;Kriegerstr. 1E, 30161 Hannover-List
+32;3;-22.15;2014-02-09;2014-02-09;Supermarkets;Hannoversche Str. 16, 30629 Hannover-Misburg-Nord
+33;3;-9.8;2014-02-09;2014-02-09;Entertainment;Blumenstr. 1, 30159 Hannover-Mitte
+34;3;-59.72;2014-02-11;2014-02-11;Entertainment;Thielenplatz 2, 30159 Hannover-Mitte
+35;3;-24.23;2014-02-18;2014-02-18;Loan;Expo-Plaza 11, 30539 Hannover-Bemerode
+36;3;-12.3;2014-02-19;2014-02-19;Cafes;Expo-Plaza 10, 30539 Hannover-Bemerode
+37;2;-38.95;2014-02-20;2014-02-20;Entertainment;Blumenstr. 1, 30159 Hannover-Mitte
+38;1;-36.28;2014-02-24;2014-02-24;MedicalServices;Misburger Str. 81d, 30625 Hannover-Heideviertel
+39;3;-4.88;2014-02-26;2014-02-26;Supermarkets;Misburger Str. 81d, Hannover
+40;4;-6;2014-02-26;2014-02-26;Supermarkets;Hannoversche Str. 16, 30629 Hannover-Misburg-Nord
+41;2;-27.68;2014-02-28;2014-02-28;Loan;Am Lindenhofe 23, 30519 Hannover-Dohren
+42;1;-3.6;2013-03-03;2013-03-03;Cafes;Theodor-Heuss-Platz 1-3, 30175 Hannover-Zoo
+43;3;-4.74;2013-03-04;2013-03-04;Cafes;Kirchrosder Str. 54, 30625 Hannover-Kleefeld
+44;2;-84;2013-03-05;2013-03-05;MedicalServices;Misburger Str. 81d, 30625 Hannover-Heideviertel
+45;1;-17.3;2013-03-05;2013-03-05;Travel;Am Lindenhofe 23, 30519 Hannover-Dohren
+46;1;-6;2013-03-10;2013-03-10;MedicalServices;Schierholzstr. 132, 30655 Hannover-Gross Buchholz
+47;1;-59.72;2013-03-11;2013-03-11;RandomServices;3951 Cozy Gate Walk, Kicking Horse, Nebraska, 69809-3085, US, (308) 612-1975
+48;4;-52.84;2013-03-13;2013-03-13;Taxi;Hannoversche Str. 16, 30629 Hannover-Misburg-Nord
+49;2;-22.7;2013-03-14;2013-03-14;Energy;Expo. 1E, 30161 Hannover-List
+50;3;-7.42;2013-03-15;2013-03-17;Entertainment;Blumenstr. 1, 30159 Hannover-Mitte
+51;1;-18.81;2013-03-16;2013-03-17;Auto;Lindenhofe 25, 30519 Hannover-Dohren
+52;2;-9.8;2013-03-17;2013-03-17;Entertainment;Gustav-Adolf-Str. 11, 30167 Hannover-Nordstadt
+53;2;-19.96;2013-03-19;2013-03-19;Cafes;Expo-Plaza 10, 30539 Hannover-Bemerode
+54;4;-9.8;2013-03-19;2013-03-19;Taxi;Hannoversche Str. 16, 30629 Hannover-Misburg-Nord
+55;2;-3.27;2013-03-19;2013-03-19;Loan;Am Lindenhofe 23, 30519 Hannover-Dohren
+56;3;-6;2013-03-22;2013-03-22;Cafes;Kirchrosder Str. 54, 30625 Hannover-Kleefeld
+57;2;-36.95;2013-03-23;2013-03-23;Cafes;Theodor-Heuss-Platz 1-3, 30175 Hannover-Zoo
+58;1;-8.61;2013-03-23;2013-03-23;Taxi;Hannoversche Str. 16, 30629 Hannover-Misburg-Nord
+59;4;-10;2013-03-23;2013-03-23;Taxi;Hannoversche Str. 16, 30629 Hannover-Misburg-Nord
+60;4;-12.8;2013-03-24;2013-03-24;MedicalServices;Schierholzstr. 132, 30655 Hannover-Gross Buchholz
+61;3;-16;2013-03-26;2013-03-26;Entertainment;Gustav-Adolf-Str. 11, 30167 Hannover-Nordstadt
+62;1;-7.73;2013-03-26;2013-03-26;Auto;Lindenhofe 25, 30519 Hannover-Dohren
+63;4;-3.71;2013-03-27;2013-03-27;Travel;Am Lindenhofe 23, 30519 Hannover-Dohren
+64;1;-6.76;2013-03-27;2013-03-27;Loan;Expo-Plaza 11, 30539 Hannover-Bemerode
+65;2;-10;2013-03-29;2013-03-29;RandomServices;8760 Golden Mall , Poorman, Iowa, 51296-9577, US, (712) 855-7400
+66;1;-5.33;2013-03-30;2013-03-30;Auto;Expo-Plaza 90, 30539 Hannover-Bemerode
+67;3;-9.8;2013-03-30;2013-03-30;Supermarkets;Hannoversche Str. 16, 30629 Hannover-Misburg-Nord
+68;1;-35;2013-03-31;2013-03-31;Loan;Expo-Plaza 11, 30539 Hannover-Bemerode
+69;2;-9.8;2013-04-01;2013-04-01;Entertainment;Blumenstr. 1, 30159 Hannover-Mitte
+70;1;-6;2013-04-02;2013-04-02;Travel;Expo-Plaza 11, 30539 Hannover-Bemerode
+71;4;-27.6;2013-04-04;2013-04-04;MedicalServices;Misburger Str. 81d, 30625 Hannover-Heideviertel
+72;2;-2.09;2013-04-05;2013-04-05;Auto;Expo-Plaza 90, 30539 Hannover-Bemerode
+73;1;-6;2013-04-06;2013-04-06;MedicalServices;Schierholzstr. 132, 30655 Hannover-Gross Buchholz
+74;2;-6;2013-04-07;2013-04-07;Loan;Expo-Plaza 11, 30539 Hannover-Bemerode
+75;4;-6;2013-04-08;2013-04-08;Entertainment;Blumenstr. 1, 30159 Hannover-Mitte
+76;1;-6;2013-04-09;2013-04-09;Travel;Am Lindenhofe 23, 30519 Hannover-Dohren
+77;2;-22.34;2013-04-09;2013-04-09;Energy;Kriegerstr. 1E, 30161 Hannover-List
+78;2;-13.74;2013-04-10;2013-04-10;Cafes;Kirchrosder Str. 54, 30625 Hannover-Kleefeld
+79;4;-62.07;2013-04-11;2013-04-11;RandomServices;3951 Cozy Gate Walk, Kicking Horse, Nebraska, 69809-3085, US, (308) 612-1975
+80;3;-5.45;2013-04-12;2013-04-12;RandomServices;3951 Cozy Gate Walk, Kicking Horse, Nebraska, 69809-3085, US, (308) 612-1975
+81;1;-12.74;2013-04-12;2013-04-12;Cafes;Expo-Plaza 10, 30539 Hannover-Bemerode
+82;2;-39.25;2013-04-12;2013-04-12;Entertainment;Gustav-Adolf-Str. 11, 30167 Hannover-Nordstadt
+83;4;-82.38;2013-04-13;2013-04-13;Travel;Expo-Plaza 11, 30539 Hannover-Bemerode
+84;4;-24.16;2013-04-13;2013-04-13;Auto;Lindenhofe 25, 30519 Hannover-Dohren
+85;2;-5.45;2013-04-13;2013-04-13;Travel;Am Lindenhofe 23, 30519 Hannover-Dohren
+86;3;-5.4;2013-04-13;2013-04-13;Entertainment;Blumenstr. 1, 30159 Hannover-Mitte
+87;2;-10.71;2013-04-13;2013-04-13;Auto;Expo-Plaza 90, 30539 Hannover-Bemerode
+88;3;-12.95;2013-04-13;2013-04-13;RandomServices;3951 Cozy Gate Walk, Kicking Horse, Nebraska, 69809-3085, US, (308) 612-1975
+89;1;-60;2013-04-15;2013-04-17;Taxi;Sohnreystr. 18, 30173 Hannover-Sudstadt
+90;2;-63.92;2013-04-17;2013-04-17;MedicalServices;Misburger Str. 81d, 30625 Hannover-Heideviertel
+91;3;-18.3;2013-04-18;2013-04-18;Entertainment;Gustav-Adolf-Str. 11, 30167 Hannover-Nordstadt
+92;2;-5.45;2013-04-18;2013-04-18;Supermarkets;Hannoversche Str. 16, 30629 Hannover-Misburg-Nord
+93;1;-6;2013-04-19;2013-04-19;Taxi;Hannoversche Str. 16, 30629 Hannover-Misburg-Nord
+94;3;-6.65;2013-04-19;2013-04-19;Entertainment;Thielenplatz 2, 30159 Hannover-Mitte
+95;4;-2.73;2013-04-20;2013-04-20;Cafes;Theodor-Heuss-Platz 1-3, 30175 Hannover-Zoo
+96;4;-6.87;2013-04-20;2013-04-20;Entertainment;Blumenstr. 1, 30159 Hannover-Mitte
+97;2;-5.45;2013-04-21;2013-04-21;Cafes;Kirchrosder Str. 54, 30625 Hannover-Kleefeld
+98;2;-49.99;2013-04-22;2013-04-22;Taxi;Hannoversche Str. 16, 30629 Hannover-Misburg-Nord
+99;3;-336.29;2013-04-22;2013-04-22;Loan;Am Lindenhofe 23, 30519 Hannover-Dohren
+100;4;-9.8;2013-04-23;2013-04-23;Loan;Am Lindenhofe 23, 30519 Hannover-Dohren
+101;1;-36.1;2013-04-28;2013-04-28;Auto;Expo-Plaza 90, 30539 Hannover-Bemerode
+102;4;-22;2013-04-28;2013-04-28;Supermarkets;Misburger Str. 81d, Hannover
+103;3;-24.07;2013-04-29;2013-04-29;Taxi;Hannoversche Str. 16, 30629 Hannover-Misburg-Nord
+104;2;-13.95;2013-04-29;2013-04-29;Supermarkets;Misburger Str. 81d, Hannover
+105;2;-12;2013-05-01;2013-05-01;MedicalServices;Misburger Str. 81d, 30625 Hannover-Heideviertel
+106;4;-10.85;2013-05-02;2013-05-02;Cafes;Theodor-Heuss-Platz 1-3, 30175 Hannover-Zoo
+107;3;-23.4;2013-05-06;2013-05-06;Loan;Expo-Plaza 11, 30539 Hannover-Bemerode
+108;1;-6.6;2013-05-07;2013-05-07;Energy;Expo. 1E, 30161 Hannover-List
+109;2;-69.64;2013-05-11;2013-05-11;Loan;Expo-Plaza 11, 30539 Hannover-Bemerode
+110;1;-8.98;2013-05-11;2013-05-11;Supermarkets;Misburger Str. 81d, Hannover
+111;1;-12.95;2013-05-11;2013-05-11;Cafes;Theodor-Heuss-Platz 1-3, 30175 Hannover-Zoo
+112;3;-39.24;2013-05-14;2013-05-14;MedicalServices;Misburger Str. 81d, 30625 Hannover-Heideviertel
+113;3;-9.8;2013-05-21;2013-05-21;RandomServices;3951 Cozy Gate Walk, Kicking Horse, Nebraska, 69809-3085, US, (308) 612-1975
+114;4;-13.7;2013-05-22;2013-05-22;Travel;Expo-Plaza 11, 30539 Hannover-Bemerode
+115;2;-49.99;2013-05-23;2013-05-23;Energy;Expo. 1E, 30161 Hannover-List
+116;2;-32.35;2013-05-24;2013-05-24;Energy;Kriegerstr. 1E, 30161 Hannover-List
+117;3;-6.1;2013-05-25;2013-05-25;Travel;Expo-Plaza 11, 30539 Hannover-Bemerode
+118;2;-72.26;2013-05-28;2013-05-28;RandomServices;3912 Fallen Crest, Loreburn, Nebraska, 69035-0197, US, (308) 892-6391
+119;2;-4.7;2013-05-28;2013-05-28;Supermarkets;Hannoversche Str. 16, 30629 Hannover-Misburg-Nord
+120;2;-23.42;2013-05-28;2013-05-28;RandomServices;3912 Fallen Crest, Loreburn, Nebraska, 69035-0197, US, (308) 892-6391
+121;1;-2.79;2013-05-31;2013-05-31;Supermarkets;Hannoversche Str. 16, 30629 Hannover-Misburg-Nord
+122;2;-43.99;2013-06-01;2013-06-01;Loan;Expo-Plaza 11, 30539 Hannover-Bemerode
+123;1;-4.25;2013-06-01;2013-06-01;RandomServices;3951 Cozy Gate Walk, Kicking Horse, Nebraska, 69809-3085, US, (308) 612-1975
+124;4;-5.45;2013-06-03;2013-06-03;Cafes;Theodor-Heuss-Platz 1-3, 30175 Hannover-Zoo
+125;1;-3.27;2013-06-08;2013-06-08;Auto;Lindenhofe 25, 30519 Hannover-Dohren
+126;4;-67.72;2013-06-11;2013-06-11;Energy;Expo. 1E, 30161 Hannover-List
+127;3;-4.77;2013-06-11;2013-06-11;RandomServices;4696 Little Route, Freeland, Iowa, 52455-5289, US, (712) 876-6382
+128;4;-11;2013-06-11;2013-06-11;Loan;Am Lindenhofe 23, 30519 Hannover-Dohren
+129;3;-9.8;2013-06-12;2013-06-12;Travel;Am Lindenhofe 23, 30519 Hannover-Dohren
+130;3;-23.47;2013-06-13;2013-06-13;Supermarkets;Hannoversche Str. 16, 30629 Hannover-Misburg-Nord
+131;1;-51;2013-06-13;2013-06-13;Loan;Expo-Plaza 11, 30539 Hannover-Bemerode
+132;1;-7.19;2013-06-17;2013-06-17;Cafes;Kirchrosder Str. 54, 30625 Hannover-Kleefeld
+133;3;-53.38;2013-06-18;2013-06-18;Entertainment;Gustav-Adolf-Str. 11, 30167 Hannover-Nordstadt
+134;2;-13.7;2013-06-18;2013-06-18;Auto;Expo-Plaza 90, 30539 Hannover-Bemerode
+135;4;-12;2013-06-19;2013-06-19;Taxi;Sohnreystr. 18, 30173 Hannover-Sudstadt
+136;4;-38.91;2013-06-19;2013-06-19;MedicalServices;Schierholzstr. 132, 30655 Hannover-Gross Buchholz
+137;1;-27.6;2013-06-20;2013-06-20;MedicalServices;Schierholzstr. 132, 30655 Hannover-Gross Buchholz
+138;2;-85.76;2013-06-20;2013-06-20;Taxi;Sohnreystr. 18, 30173 Hannover-Sudstadt
+139;1;-1959.7;2013-06-21;2013-06-21;RandomServices;3912 Fallen Crest, Loreburn, Nebraska, 69035-0197, US, (308) 892-6391
+140;1;-1950.3;2013-06-21;2013-06-21;Travel;Am Lindenhofe 23, 30519 Hannover-Dohren
+141;3;-128.85;2013-06-22;2013-06-22;Cafes;Kirchrosder Str. 54, 30625 Hannover-Kleefeld
+142;3;-96.87;2013-06-22;2013-06-22;Taxi;Sohnreystr. 18, 30173 Hannover-Sudstadt
+143;1;-48.88;2013-06-23;2013-06-23;Taxi;Sohnreystr. 18, 30173 Hannover-Sudstadt
+144;4;-14.27;2013-06-23;2013-06-23;RandomServices;8760 Golden Mall , Poorman, Iowa, 51296-9577, US, (712) 855-7400
+145;4;-69.68;2013-06-23;2013-06-23;RandomServices;8760 Golden Mall , Poorman, Iowa, 51296-9577, US, (712) 855-7400
+146;1;-49.99;2013-06-23;2013-06-23;Auto;Lindenhofe 25, 30519 Hannover-Dohren
+147;2;-3.77;2013-06-24;2013-06-24;Cafes;Theodor-Heuss-Platz 1-3, 30175 Hannover-Zoo
+148;2;-6.42;2013-06-24;2013-06-24;Cafes;Kirchrosder Str. 54, 30625 Hannover-Kleefeld
+149;4;-12;2013-06-24;2013-06-24;Energy;Kriegerstr. 1E, 30161 Hannover-List
+150;2;-23;2013-06-26;2013-06-26;Auto;Lindenhofe 25, 30519 Hannover-Dohren
+151;2;-27.8;2013-06-27;2013-06-27;Supermarkets;Hannoversche Str. 16, 30629 Hannover-Misburg-Nord
+152;3;-18.44;2013-07-01;2013-07-01;MedicalServices;Misburger Str. 81d, 30625 Hannover-Heideviertel
+153;4;-9.82;2013-07-01;2013-07-01;Auto;Lindenhofe 25, 30519 Hannover-Dohren
+154;1;-12.44;2013-07-01;2013-07-01;Loan;Am Lindenhofe 23, 30519 Hannover-Dohren
+155;3;-2.92;2013-07-01;2013-07-01;Taxi;Hannoversche Str. 16, 30629 Hannover-Misburg-Nord
+156;3;-59.64;2013-07-11;2013-07-11;RandomServices;8873 Stony Mountain Limits, Normal, New Brunswick, E0B-4C2, CA, (506) 772-2667
+157;3;-20;2013-07-12;2013-07-12;RandomServices;4696 Little Route, Freeland, Iowa, 52455-5289, US, (712) 876-6382
+158;3;-12.43;2013-07-18;2013-07-18;Auto;Lindenhofe 25, 30519 Hannover-Dohren
+159;2;-3.78;2013-07-18;2013-07-18;MedicalServices;Misburger Str. 81d, 30625 Hannover-Heideviertel
+160;4;-328.7;2013-07-18;2013-07-18;Loan;Expo-Plaza 11, 30539 Hannover-Bemerode
+161;2;-3.41;2013-07-20;2013-07-20;MedicalServices;Schierholzstr. 132, 30655 Hannover-Gross Buchholz
+162;2;-8.32;2013-07-20;2013-07-20;Auto;Expo-Plaza 90, 30539 Hannover-Bemerode
+163;3;-17.3;2013-07-22;2013-07-22;Travel;Expo-Plaza 11, 30539 Hannover-Bemerode
+164;2;-76.63;2013-07-22;2013-07-22;Cafes;Theodor-Heuss-Platz 1-3, 30175 Hannover-Zoo
+165;3;-3.48;2013-07-22;2013-07-22;Taxi;Hannoversche Str. 16, 30629 Hannover-Misburg-Nord
+166;2;-49.99;2013-07-24;2013-07-24;Auto;Expo-Plaza 90, 30539 Hannover-Bemerode
+167;2;-8.39;2013-07-24;2013-07-24;Taxi;Sohnreystr. 18, 30173 Hannover-Sudstadt
+168;2;-2.17;2013-07-26;2013-07-26;Travel;Am Lindenhofe 23, 30519 Hannover-Dohren
+169;3;-20;2013-07-28;2013-07-28;Auto;Expo-Plaza 90, 30539 Hannover-Bemerode
+170;1;-123.74;2013-07-29;2013-07-29;RandomServices;4696 Little Route, Freeland, Iowa, 52455-5289, US, (712) 876-6382
+171;4;-92.64;2013-07-29;2013-07-29;Travel;Expo-Plaza 11, 30539 Hannover-Bemerode
+172;4;-100;2013-07-29;2013-07-29;Taxi;Sohnreystr. 18, 30173 Hannover-Sudstadt
+173;2;-19.07;2013-07-29;2013-07-29;Taxi;Sohnreystr. 18, 30173 Hannover-Sudstadt
+174;1;-53.93;2013-07-30;2013-07-30;Taxi;Sohnreystr. 18, 30173 Hannover-Sudstadt
+175;2;-23.94;2013-07-31;2013-07-31;Cafes;Kirchrosder Str. 54, 30625 Hannover-Kleefeld
+176;1;-75;2013-08-01;2013-08-01;Travel;Expo-Plaza 11, 30539 Hannover-Bemerode
+177;4;-20;2013-08-01;2013-08-01;Loan;Expo-Plaza 11, 30539 Hannover-Bemerode
+178;2;-25;2013-08-02;2013-08-02;Supermarkets;Hannoversche Str. 16, 30629 Hannover-Misburg-Nord
+179;2;-22.99;2013-08-03;2013-08-03;MedicalServices;Misburger Str. 81d, 30625 Hannover-Heideviertel
+180;3;-39.99;2013-08-03;2013-08-03;Supermarkets;Hannoversche Str. 16, 30629 Hannover-Misburg-Nord
+181;3;-29.74;2013-08-03;2013-08-03;RandomServices;8873 Stony Mountain Limits, Normal, New Brunswick, E0B-4C2, CA, (506) 772-2667
+182;1;-2.94;2013-08-04;2013-08-04;Entertainment;Gustav-Adolf-Str. 11, 30167 Hannover-Nordstadt
+183;1;-36.99;2013-08-04;2013-08-04;Loan;Expo-Plaza 11, 30539 Hannover-Bemerode
+184;2;-2.17;2013-08-05;2013-08-05;Energy;Kriegerstr. 1E, 30161 Hannover-List
+185;1;-154.7;2013-08-06;2013-08-06;Loan;Expo-Plaza 11, 30539 Hannover-Bemerode
+186;3;-37.39;2013-08-07;2013-08-07;Cafes;Theodor-Heuss-Platz 1-3, 30175 Hannover-Zoo
+187;1;-346.98;2013-08-07;2013-08-07;Energy;Expo. 1E, 30161 Hannover-List
+188;1;-62.6;2013-08-11;2013-08-11;Energy;Expo. 1E, 30161 Hannover-List
+189;2;-176.74;2013-08-12;2013-08-12;Cafes;Theodor-Heuss-Platz 1-3, 30175 Hannover-Zoo
+190;2;-14;2013-08-12;2013-08-12;MedicalServices;Misburger Str. 81d, 30625 Hannover-Heideviertel
+191;3;-9.95;2013-08-15;2013-08-17;Entertainment;Blumenstr. 1, 30159 Hannover-Mitte
+192;1;-2.09;2013-08-16;2013-08-17;Cafes;Expo-Plaza 10, 30539 Hannover-Bemerode
+193;3;-29.76;2013-08-17;2013-08-17;Travel;Am Lindenhofe 23, 30519 Hannover-Dohren
+194;1;-30;2013-08-17;2013-08-17;Cafes;Expo-Plaza 10, 30539 Hannover-Bemerode
+195;3;-35;2013-08-17;2013-08-17;Cafes;Expo-Plaza 10, 30539 Hannover-Bemerode
+196;3;-49.99;2013-08-18;2013-08-18;Energy;Kriegerstr. 1E, 30161 Hannover-List
+197;1;-17.15;2013-08-19;2013-08-19;Taxi;Sohnreystr. 18, 30173 Hannover-Sudstadt
+198;2;-59.27;2013-08-20;2013-08-20;Entertainment;Blumenstr. 1, 30159 Hannover-Mitte
+199;3;-26.49;2013-08-20;2013-08-20;MedicalServices;Schierholzstr. 132, 30655 Hannover-Gross Buchholz
+200;3;-45;2013-08-21;2013-08-21;Auto;Expo-Plaza 90, 30539 Hannover-Bemerode
+201;1;-4.36;2013-08-22;2013-08-22;RandomServices;8760 Golden Mall , Poorman, Iowa, 51296-9577, US, (712) 855-7400
+202;4;-49.99;2013-08-23;2013-08-23;Supermarkets;Misburger Str. 81d, Hannover
+203;4;-2.73;2013-08-24;2013-08-24;RandomServices;8873 Stony Mountain Limits, Normal, New Brunswick, E0B-4C2, CA, (506) 772-2667
+204;3;-4.91;2013-08-24;2013-08-24;Cafes;Expo-Plaza 10, 30539 Hannover-Bemerode
+205;2;-44.02;2013-08-25;2013-08-25;Travel;Am Lindenhofe 23, 30519 Hannover-Dohren
+206;3;-10;2013-08-25;2013-08-25;Loan;Am Lindenhofe 23, 30519 Hannover-Dohren
+207;2;-19.4;2013-08-26;2013-08-26;Energy;Expo. 1E, 30161 Hannover-List
+208;2;-5.07;2013-08-27;2013-08-27;Entertainment;Thielenplatz 2, 30159 Hannover-Mitte
+209;3;-3.6;2013-08-27;2013-08-27;MedicalServices;Misburger Str. 81d, 30625 Hannover-Heideviertel
+210;3;-23.35;2013-08-28;2013-08-28;Entertainment;Blumenstr. 1, 30159 Hannover-Mitte
+211;3;-20.26;2013-08-29;2013-08-29;Energy;Expo. 1E, 30161 Hannover-List
+212;4;-6.65;2013-08-29;2013-08-29;Cafes;Expo-Plaza 10, 30539 Hannover-Bemerode
+213;2;-10.92;2013-08-29;2013-08-29;Loan;Expo-Plaza 11, 30539 Hannover-Bemerode
+214;1;-2.73;2013-08-31;2013-08-31;MedicalServices;Misburger Str. 81d, 30625 Hannover-Heideviertel
+215;2;-2.94;2013-08-31;2013-08-31;Taxi;Sohnreystr. 18, 30173 Hannover-Sudstadt
+216;2;-19.17;2013-09-01;2013-09-01;Taxi;Sohnreystr. 18, 30173 Hannover-Sudstadt
+217;4;-40;2013-09-02;2013-09-02;MedicalServices;Misburger Str. 81d, 30625 Hannover-Heideviertel
+218;4;-5.61;2013-09-03;2013-09-03;RandomServices;3951 Cozy Gate Walk, Kicking Horse, Nebraska, 69809-3085, US, (308) 612-1975
+219;1;-8.99;2013-09-03;2013-09-03;Energy;Kriegerstr. 1E, 30161 Hannover-List
+220;2;-8;2013-09-04;2013-09-04;Cafes;Expo-Plaza 10, 30539 Hannover-Bemerode
+221;2;-9.95;2013-09-08;2013-09-08;Loan;Expo-Plaza 11, 30539 Hannover-Bemerode
+222;4;-3.15;2013-09-08;2013-09-08;RandomServices;3912 Fallen Crest, Loreburn, Nebraska, 69035-0197, US, (308) 892-6391
+223;4;-7.84;2013-09-10;2013-09-10;Energy;Kriegerstr. 1E, 30161 Hannover-List
+224;3;-59.6;2013-09-11;2013-09-11;RandomServices;8760 Golden Mall , Poorman, Iowa, 51296-9577, US, (712) 855-7400
+225;2;-2.73;2013-09-12;2013-09-12;Energy;Expo. 1E, 30161 Hannover-List
+226;4;-3.76;2013-09-12;2013-09-12;Entertainment;Thielenplatz 2, 30159 Hannover-Mitte
+227;4;-33.12;2013-09-12;2013-09-12;Auto;Expo-Plaza 90, 30539 Hannover-Bemerode
+228;2;-33.12;2013-09-12;2013-09-12;MedicalServices;Schierholzstr. 132, 30655 Hannover-Gross Buchholz
+229;4;-25;2013-09-12;2013-09-12;Travel;Expo-Plaza 11, 30539 Hannover-Bemerode
+230;2;-54.24;2013-09-12;2013-09-12;Auto;Expo-Plaza 90, 30539 Hannover-Bemerode
+231;2;-16.25;2013-09-12;2013-09-12;Auto;Expo-Plaza 90, 30539 Hannover-Bemerode
+232;3;-16.25;2013-09-12;2013-09-12;Cafes;Kirchrosder Str. 54, 30625 Hannover-Kleefeld
+233;1;-2.09;2013-09-15;2013-09-17;Supermarkets;Hannoversche Str. 16, 30629 Hannover-Misburg-Nord
+234;2;-18.8;2013-09-16;2013-09-17;RandomServices;3951 Cozy Gate Walk, Kicking Horse, Nebraska, 69809-3085, US, (308) 612-1975
+235;2;-9.93;2013-09-17;2013-09-17;Loan;Expo-Plaza 11, 30539 Hannover-Bemerode
+236;3;-20;2013-09-18;2013-09-18;Entertainment;Thielenplatz 2, 30159 Hannover-Mitte
+237;3;-2.73;2013-09-19;2013-09-19;RandomServices;4696 Little Route, Freeland, Iowa, 52455-5289, US, (712) 876-6382
+238;1;-3.76;2013-09-19;2013-09-19;Loan;Am Lindenhofe 23, 30519 Hannover-Dohren
+239;4;-382.95;2013-09-19;2013-09-19;Auto;Lindenhofe 25, 30519 Hannover-Dohren
+240;1;-2.17;2013-09-19;2013-09-19;Travel;Am Lindenhofe 23, 30519 Hannover-Dohren
+241;4;-2.17;2013-09-20;2013-09-20;Supermarkets;Hannoversche Str. 16, 30629 Hannover-Misburg-Nord
+242;1;-6.97;2013-09-21;2013-09-21;Travel;Expo-Plaza 11, 30539 Hannover-Bemerode
+243;1;-2.17;2013-09-22;2013-09-22;Cafes;Expo-Plaza 10, 30539 Hannover-Bemerode
+244;1;-49.99;2013-09-23;2013-09-23;RandomServices;8873 Stony Mountain Limits, Normal, New Brunswick, E0B-4C2, CA, (506) 772-2667
+245;1;-20;2013-09-23;2013-09-23;Loan;Expo-Plaza 11, 30539 Hannover-Bemerode
+246;1;-2.73;2013-09-24;2013-09-24;Auto;Expo-Plaza 90, 30539 Hannover-Bemerode
+247;2;-3.76;2013-09-24;2013-09-24;Travel;Am Lindenhofe 23, 30519 Hannover-Dohren
+248;4;-2.29;2013-09-25;2013-09-25;Supermarkets;Hannoversche Str. 16, 30629 Hannover-Misburg-Nord
+249;1;-9.24;2013-09-25;2013-09-25;Taxi;Sohnreystr. 18, 30173 Hannover-Sudstadt
+250;3;-20.3;2013-09-25;2013-09-25;Entertainment;Thielenplatz 2, 30159 Hannover-Mitte
+251;3;-3.76;2013-09-26;2013-09-26;Cafes;Theodor-Heuss-Platz 1-3, 30175 Hannover-Zoo
+252;3;-2.63;2013-09-26;2013-09-26;Auto;Expo-Plaza 90, 30539 Hannover-Bemerode
+253;4;-2.17;2013-09-26;2013-09-26;MedicalServices;Schierholzstr. 132, 30655 Hannover-Gross Buchholz
+254;4;-7.63;2013-09-28;2013-09-28;Loan;Expo-Plaza 11, 30539 Hannover-Bemerode
+255;3;-5.01;2013-09-29;2013-09-29;Travel;Expo-Plaza 11, 30539 Hannover-Bemerode
+256;1;-8.74;2013-09-29;2013-09-29;Loan;Am Lindenhofe 23, 30519 Hannover-Dohren
+257;1;-14.62;2013-09-30;2013-09-30;Loan;Am Lindenhofe 23, 30519 Hannover-Dohren
+258;4;-69.74;2013-10-01;2013-10-01;Supermarkets;Misburger Str. 81d, Hannover
+259;1;-7.84;2013-10-01;2013-10-01;RandomServices;8873 Stony Mountain Limits, Normal, New Brunswick, E0B-4C2, CA, (506) 772-2667
+260;2;-40;2013-10-01;2013-10-01;RandomServices;3912 Fallen Crest, Loreburn, Nebraska, 69035-0197, US, (308) 892-6391
+261;3;-163.4;2013-10-01;2013-10-01;Auto;Lindenhofe 25, 30519 Hannover-Dohren
+262;4;-6.73;2013-10-02;2013-10-02;Auto;Expo-Plaza 90, 30539 Hannover-Bemerode
+263;4;-2.73;2013-10-03;2013-10-03;Entertainment;Thielenplatz 2, 30159 Hannover-Mitte
+264;1;-3.76;2013-10-03;2013-10-03;Supermarkets;Misburger Str. 81d, Hannover
+265;4;-19;2013-10-03;2013-10-03;Travel;Am Lindenhofe 23, 30519 Hannover-Dohren
+266;4;-2.17;2013-10-03;2013-10-03;Cafes;Theodor-Heuss-Platz 1-3, 30175 Hannover-Zoo
+267;4;-30.73;2013-10-03;2013-10-03;Travel;Am Lindenhofe 23, 30519 Hannover-Dohren
+268;4;-298.16;2013-10-04;2013-10-04;Entertainment;Blumenstr. 1, 30159 Hannover-Mitte
+269;4;-2.17;2013-10-04;2013-10-04;MedicalServices;Schierholzstr. 132, 30655 Hannover-Gross Buchholz
+270;2;-5.22;2013-10-05;2013-10-05;Loan;Expo-Plaza 11, 30539 Hannover-Bemerode
+271;3;-2.7;2013-10-06;2013-10-06;RandomServices;8873 Stony Mountain Limits, Normal, New Brunswick, E0B-4C2, CA, (506) 772-2667
+272;1;-2.17;2013-10-07;2013-10-07;Energy;Expo. 1E, 30161 Hannover-List
+273;4;-22.75;2013-10-07;2013-10-07;RandomServices;3912 Fallen Crest, Loreburn, Nebraska, 69035-0197, US, (308) 892-6391
+274;2;-20.01;2013-10-08;2013-10-08;Energy;Kriegerstr. 1E, 30161 Hannover-List
+275;1;-33;2013-10-08;2013-10-08;MedicalServices;Schierholzstr. 132, 30655 Hannover-Gross Buchholz
+276;1;-9.49;2013-10-09;2013-10-09;Energy;Expo. 1E, 30161 Hannover-List
+277;1;-2.17;2013-10-10;2013-10-10;MedicalServices;Schierholzstr. 132, 30655 Hannover-Gross Buchholz
+278;4;-4.01;2013-10-10;2013-10-10;Cafes;Theodor-Heuss-Platz 1-3, 30175 Hannover-Zoo
+279;4;-62.46;2013-10-11;2013-10-11;Auto;Expo-Plaza 90, 30539 Hannover-Bemerode
+280;1;-2.17;2013-10-11;2013-10-11;Taxi;Sohnreystr. 18, 30173 Hannover-Sudstadt
+281;3;-2.17;2013-10-12;2013-10-12;Auto;Expo-Plaza 90, 30539 Hannover-Bemerode
+282;4;-2.17;2013-10-13;2013-10-13;Taxi;Sohnreystr. 18, 30173 Hannover-Sudstadt
+283;4;-2.94;2013-10-14;2013-10-14;Auto;Lindenhofe 25, 30519 Hannover-Dohren
+284;3;-20;2013-10-15;2013-10-17;RandomServices;8873 Stony Mountain Limits, Normal, New Brunswick, E0B-4C2, CA, (506) 772-2667
+285;3;-4.63;2013-10-16;2013-10-17;Taxi;Sohnreystr. 18, 30173 Hannover-Sudstadt
+286;4;-12.42;2013-10-16;2013-10-17;Loan;Expo-Plaza 11, 30539 Hannover-Bemerode
+287;1;-2.73;2013-10-17;2013-10-17;Auto;Lindenhofe 25, 30519 Hannover-Dohren
+288;3;-3.76;2013-10-17;2013-10-17;Taxi;Sohnreystr. 18, 30173 Hannover-Sudstadt
+289;1;-7.41;2013-10-18;2013-10-18;Auto;Lindenhofe 25, 30519 Hannover-Dohren
+290;1;-2.09;2013-10-18;2013-10-18;Travel;Expo-Plaza 11, 30539 Hannover-Bemerode
+291;2;-2.73;2013-10-19;2013-10-19;RandomServices;3951 Cozy Gate Walk, Kicking Horse, Nebraska, 69809-3085, US, (308) 612-1975
+292;2;-3.76;2013-10-19;2013-10-19;Cafes;Expo-Plaza 10, 30539 Hannover-Bemerode
+293;2;-2.17;2013-10-19;2013-10-19;Cafes;Theodor-Heuss-Platz 1-3, 30175 Hannover-Zoo
+294;3;-2.17;2013-10-21;2013-10-21;Energy;Expo. 1E, 30161 Hannover-List
+295;1;-12.85;2013-10-21;2013-10-21;Loan;Expo-Plaza 11, 30539 Hannover-Bemerode
+296;2;-2.97;2013-10-23;2013-10-23;RandomServices;3912 Fallen Crest, Loreburn, Nebraska, 69035-0197, US, (308) 892-6391
+297;3;-49.99;2013-10-23;2013-10-23;Energy;Kriegerstr. 1E, 30161 Hannover-List
+298;1;-19.21;2013-10-25;2013-10-25;RandomServices;8873 Stony Mountain Limits, Normal, New Brunswick, E0B-4C2, CA, (506) 772-2667
+299;3;-2.17;2013-10-25;2013-10-25;Energy;Expo. 1E, 30161 Hannover-List
+300;4;-15;2013-10-26;2013-10-26;Cafes;Theodor-Heuss-Platz 1-3, 30175 Hannover-Zoo
+301;1;-6.83;2013-10-27;2013-10-27;Auto;Expo-Plaza 90, 30539 Hannover-Bemerode
+302;3;-6.92;2013-10-27;2013-10-27;Entertainment;Thielenplatz 2, 30159 Hannover-Mitte
+303;4;-3.19;2013-10-29;2013-10-29;Entertainment;Blumenstr. 1, 30159 Hannover-Mitte
+304;2;-47.91;2013-10-30;2013-10-30;RandomServices;4696 Little Route, Freeland, Iowa, 52455-5289, US, (712) 876-6382
+305;2;-7.67;2013-10-30;2013-10-30;Supermarkets;Misburger Str. 81d, Hannover
+306;1;-17.37;2013-10-31;2013-10-31;Travel;Expo-Plaza 11, 30539 Hannover-Bemerode
+307;4;-2.94;2013-11-01;2013-11-01;Travel;Am Lindenhofe 23, 30519 Hannover-Dohren
+308;4;-132.79;2013-11-01;2013-11-01;MedicalServices;Misburger Str. 81d, 30625 Hannover-Heideviertel
+309;3;-10;2013-11-01;2013-11-01;Loan;Expo-Plaza 11, 30539 Hannover-Bemerode
+310;2;-9.24;2013-11-02;2013-11-02;MedicalServices;Misburger Str. 81d, 30625 Hannover-Heideviertel
+311;1;-3.71;2013-11-03;2013-11-03;Loan;Am Lindenhofe 23, 30519 Hannover-Dohren
+312;4;-6.7;2013-11-03;2013-11-03;Energy;Expo. 1E, 30161 Hannover-List
+313;2;-2.94;2013-11-04;2013-11-04;Travel;Am Lindenhofe 23, 30519 Hannover-Dohren
+314;4;-9.24;2013-11-04;2013-11-04;Entertainment;Thielenplatz 2, 30159 Hannover-Mitte
+315;2;-2.73;2013-11-06;2013-11-06;Supermarkets;Hannoversche Str. 16, 30629 Hannover-Misburg-Nord
+316;1;-5.46;2013-11-06;2013-11-06;Travel;Am Lindenhofe 23, 30519 Hannover-Dohren
+317;4;-34.45;2013-11-07;2013-11-07;MedicalServices;Misburger Str. 81d, 30625 Hannover-Heideviertel
+318;1;-2.17;2013-11-08;2013-11-08;Cafes;Kirchrosder Str. 54, 30625 Hannover-Kleefeld
+319;1;-2.64;2013-11-09;2013-11-09;Entertainment;Gustav-Adolf-Str. 11, 30167 Hannover-Nordstadt
+320;1;-2.17;2013-11-09;2013-11-09;Entertainment;Blumenstr. 1, 30159 Hannover-Mitte
+321;4;-440;2013-11-10;2013-11-10;Loan;Am Lindenhofe 23, 30519 Hannover-Dohren
+322;1;700;2013-03-01;2013-03-01;SALARY;NO DATA
+323;1;700;2013-04-01;2013-04-01;SALARY;NO DATA
+324;1;700;2013-05-01;2013-05-01;SALARY;NO DATA
+325;1;700;2013-06-01;2013-06-01;SALARY;NO DATA
+326;1;700;2013-07-01;2013-07-01;SALARY;NO DATA
+327;1;700;2013-08-01;2013-08-01;SALARY;NO DATA
+328;1;700;2013-09-01;2013-09-01;SALARY;NO DATA
+329;1;700;2013-10-01;2013-10-01;SALARY;NO DATA
+330;1;700;2013-11-01;2013-11-01;SALARY;NO DATA
+331;1;700;2014-01-01;2014-01-01;SALARY;NO DATA
+332;1;700;2014-02-01;2014-02-01;SALARY;NO DATA
+333;2;350;2013-03-01;2013-03-01;SALARY;NO DATA
+334;2;350;2013-04-01;2013-04-01;SALARY;NO DATA
+335;2;350;2013-05-01;2013-05-01;SALARY;NO DATA
+336;2;350;2013-06-01;2013-06-01;SALARY;NO DATA
+337;2;350;2013-07-01;2013-07-01;SALARY;NO DATA
+338;2;350;2013-08-01;2013-08-01;SALARY;NO DATA
+339;2;350;2013-09-01;2013-09-01;SALARY;NO DATA
+340;2;350;2013-10-01;2013-10-01;SALARY;NO DATA
+341;2;350;2013-11-01;2013-11-01;SALARY;NO DATA
+342;2;350;2014-01-01;2014-01-01;SALARY;NO DATA
+343;2;350;2014-02-01;2014-02-01;SALARY;NO DATA
+344;3;700;2013-03-01;2013-03-01;SALARY;NO DATA
+345;3;700;2013-04-01;2013-04-01;SALARY;NO DATA
+346;3;700;2013-05-01;2013-05-01;SALARY;NO DATA
+347;3;700;2013-06-01;2013-06-01;SALARY;NO DATA
+348;3;700;2013-07-01;2013-07-01;SALARY;NO DATA
+349;3;700;2013-08-01;2013-08-01;SALARY;NO DATA
+350;3;700;2013-09-01;2013-09-01;SALARY;NO DATA
+351;3;700;2013-10-01;2013-10-01;SALARY;NO DATA
+352;3;700;2013-11-01;2013-11-01;SALARY;NO DATA
+353;3;700;2014-01-01;2014-01-01;SALARY;NO DATA
+354;3;700;2014-02-01;2014-02-01;SALARY;NO DATA
+355;4;350;2013-03-01;2013-03-01;SALARY;NO DATA
+356;4;350;2013-04-01;2013-04-01;SALARY;NO DATA
+357;4;350;2013-05-01;2013-05-01;SALARY;NO DATA
+358;4;350;2013-06-01;2013-06-01;SALARY;NO DATA
+359;4;350;2013-07-01;2013-07-01;SALARY;NO DATA
+360;4;350;2013-08-01;2013-08-01;SALARY;NO DATA
+361;4;350;2013-09-01;2013-09-01;SALARY;NO DATA
+362;4;350;2013-10-01;2013-10-01;SALARY;NO DATA
+363;4;350;2013-11-01;2013-11-01;SALARY;NO DATA
+364;4;350;2014-01-01;2014-01-01;SALARY;NO DATA
+365;4;350;2014-02-01;2014-02-01;SALARY;NO DATA
