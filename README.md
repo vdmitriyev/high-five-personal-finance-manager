@@ -40,6 +40,22 @@ Data Import
 * Schema that is used by default is "DEMOUSER00"
 * Table names: "TBL_TRANS_DATA", "TBL_USERS"
 
+How to Run "HoneyMoney" inside SAP HANA Cloud Platform
+======================================================
+* Go through following article by [Stoyan Manchev](http://scn.sap.com/people/stoyan.manchev) to get general understanding of upcoming process ["8 Easy Steps to Develop an XS application on the SAP HANA Cloud Platform"](http://scn.sap.com/community/developer-center/cloud-platform/blog/2013/10/17/8-easy-steps-to-develop-an-xs-application-on-the-sap-hana-cloud-platform#start=100)
+* Perform steps 1,2 from article mentioned above, but instead of using "hihanaxs" as application name use "cloudhoneymoney"
+* During step 3 while creating project give a name to the project "honeymoney"
+* Go to the workspace with created project (must contain "._SYS_REGI_settings" and "<username>trial" directories)
+* Inside directory "<username>trial" remove directory "cloudhoneymoney"
+* After removing directory "cloudhoneymoney" execute following command:
+```
+git clone https://github.com/vdmitriyev/high-five-personal-finance-manager.git cloudhoneymoney
+```
+* Go back to SAP HANA Studio and refresh it, now you have to see file from project that are extracted from github
+* Deploy files from XS Project(the name of the project should be "honeymoney") to SAP HANA Cloud
+* Go to the cockpit of SAP HANA Cloud Platform and open "HANA XS Applications" -> "Applications"  and click on link that will lead you to uploaded files of your application
+* NB: do not forget to load data to instance of SAP HANA that is located in cloud and also change scripts for your SCHEMA, by default "honeymoney" uses schema "DEMOUSER00".
+
 Known Problems and Drawbacks
 ============================
 * Most parts of the code were written an hurry =).
