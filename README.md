@@ -8,15 +8,15 @@ Initially project was started by the team ["High Five"](http://wiki.scn.sap.com/
 
 Contributors (credits):
 ======================
-* Jacob Burns
-* Dominik Dür
-* Viktor Dmitriyev ![alt text](http://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/200px-Flag_of_Germany.svg.png "Germany")
-* Georg Krenn
-* Breda Lever
-* Loina Prifti
-* Thomas Sugarev
-* Christian Weait
-* Anton Zubarev
+* Jacob Burns ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/gb.png "Great Britain")
+* Dominik Dür ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/li.png "Liechtenstein")
+* Viktor Dmitriyev ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/de.png "Germany") / ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/kz.png "Kazakhstan")
+* Georg Krenn ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/at.png "Kazakhstan")
+* Breda Lever ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/si.png "Slovenia")
+* Loina Prifti ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/de.png "Germany") / ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/al.png "Alabania")
+* Thomas Sugarev ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/gb.png "Great Britain")
+* Christian Weait ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/dk.png "Denmark")
+* Anton Zubarev ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/ru.png "Russia")
 
 How To Start
 ============
