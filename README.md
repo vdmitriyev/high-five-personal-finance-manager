@@ -10,7 +10,7 @@ Contributors (credits):
 ======================
 * Jacob Burns ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/gb.png "Great Britain")
 * Dominik Dür ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/li.png "Liechtenstein")
-* Viktor Dmitriyev ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/kz.png "Kazakhstan")
+* Viktor Dmitriyev ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/kz.png "Kazakhstan") / ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/de.png "Germany")
 * Georg Krenn ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/at.png "Kazakhstan")
 * Breda Lever ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/si.png "Slovenia")
 * Loina Prifti ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/de.png "Germany")
