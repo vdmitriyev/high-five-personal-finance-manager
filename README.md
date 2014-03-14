@@ -18,6 +18,18 @@ Contributors (credits):
 * Christian Weait
 * Anton Zubarev
 
+Project Structure
+=============
+* Directory 'data' contains ready to use data and data generators;
+* Directory 'honeymoney' contains SAP HANA Studio XS Project that must be imported into database;
+
+Data Import
+===========
+* Data should be imported from /data/ready_data/*
+* How to import data to SAP HANA from local CSV please check this [link](https://github.com/vdmitriyev/saphana-demos-bi2course-vlba/blob/master/demo-import-csv-data/import-csv-data.pdf)
+* Schema that is used by default is "DEMOUSER00"
+* Table names: TBL_TRANS_DATA, TBL_USERS
+
 Known Problems and Drawbacks
 ============================
 * Most parts of the code were written an hurry =).
