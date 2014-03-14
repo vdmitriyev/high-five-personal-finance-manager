@@ -40,6 +40,7 @@ function loadJSONData(url, type) {
 		xmlhttp.send();
 	}
 
+
 function renderDataToHTMLTable(data){
 	
 	var outputHTML = "";
@@ -52,17 +53,12 @@ function renderDataToHTMLTable(data){
 	        var obj = data["d"]["results"][i];	        
 	        outputHTML = outputHTML + "<tr>";
 	        
-	        	if (obj["AMOUNT"] < 0){
-	        		outputHTML = outputHTML + "<td style='color:red;'>-&euro;" + Math.abs(obj["AMOUNT"]) + "</td>";
-	        	} else {
-	        		amountTextColor = 'green';
-	        		outputHTML = outputHTML + "<td style='color:green;'>&euro;" + obj["AMOUNT"] + "</td>";
-	        	}
-	        	
-		        
-		        outputHTML = outputHTML + "<td>" + obj["TRAN_DATE"] + "</td>";
-		        outputHTML = outputHTML + "<td>" + obj["CATEGORY_TEXT"] + "</td>";
-		        outputHTML = outputHTML + "<td>" + obj["DESCRIPTION"] + "</td>";
+	        var res_amount = format_amount(obj["AMOUNT"]);
+        	
+        	outputHTML = outputHTML + "<td style='color:" + res_amount.color + ";'>" + res_amount.amount + "</td>";
+	    	outputHTML = outputHTML + "<td>" + from_edm_date_to_normal(obj["TRAN_DATE"]) + "</td>";		    	
+	        outputHTML = outputHTML + "<td>" + obj["CATEGORY_TEXT"] + "</td>";		         
+	        outputHTML = outputHTML + "<td>" + format_description(obj["DESCRIPTION"], 20) + "</td>";
 		        
 	        outputHTML = outputHTML + "</tr>";	           
 	    }	 

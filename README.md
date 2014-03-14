@@ -33,8 +33,19 @@ Project Structure
 * Directory 'data' contains ready to use data and data generators;
 * Directory 'honeymoney' contains SAP HANA Studio XS Project that must be imported into database;
 
-Data Import
-===========
+Data Import - Option 1
+===================================
+* Tables must be generated from '*.hdbtable' files that are located in the directory /honeymoney/data
+* To generate tables just activate all '*.hdbtable' files
+* Do not forget to give all needed grants (because when tables are created from '*.hdbtable' files is owned by _SYS_REPO, scripts with grants can be found in the following directory /honeymoney/data/sql-scripts)
+* Data should be imported from /data/ready_data/* to the already created tables
+* How to import data to SAP HANA from local CSV please check this [pdf](https://github.com/vdmitriyev/saphana-demos-bi2course-vlba/blob/master/demo-import-csv-data/import-csv-data.pdf)
+* Schema that is used by default is "DEMOUSER00"
+* Generated tables: <namespace>::"tbl_users", <namespace>::"tbl_trans_data", <namespace>::"tbl_events"
+* NOTE: Note that '<namespace>' is very important and depends to the folder wheere you are storing your project, do not also forget to change '<namespace>' in *.xsjs scripts.
+
+Data Import - Option 2 (Deprecated)
+===================================
 * Data should be imported from /data/ready_data/*
 * How to import data to SAP HANA from local CSV please check this [pdf](https://github.com/vdmitriyev/saphana-demos-bi2course-vlba/blob/master/demo-import-csv-data/import-csv-data.pdf)
 * Schema that is used by default is "DEMOUSER00"
@@ -52,7 +63,7 @@ How to Run "HoneyMoney" inside SAP HANA Cloud Platform
 git clone https://github.com/vdmitriyev/high-five-personal-finance-manager.git cloudhoneymoney
 ```
 * Go back to SAP HANA Studio and refresh it, now you have to see file from project that are extracted from github
-* Deploy files from XS Project(the name of the project should be "honeymoney") to SAP HANA Cloud
+* Deploy files from XS Project(the name of the project should be "honeymoney") to SAP HANA Cloud [deploy files only from "honeymoney" subdirectory !!!]
 * Go to the cockpit of SAP HANA Cloud Platform and open "HANA XS Applications" -> "Applications"  and click on link that will lead you to uploaded files of your application
 * NB: do not forget to load data to instance of SAP HANA that is located in cloud and also change scripts for your SCHEMA, by default "honeymoney" uses schema "DEMOUSER00".
 

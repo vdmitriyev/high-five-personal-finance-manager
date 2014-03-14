@@ -6,10 +6,14 @@
 // var DB_SCHEMA = "TEAM05";
 
 var DB_SCHEMA = "DEMOUSER00";
-var TABLE_NAME = "TBL_TRANS_DATA";
+var NAMESPACE = "uni.vlba.honeymoney.data";
+var TABLE_NAME = "tbl_trans_data";
+var FULL_TABLE_NAME = NAMESPACE + "::" + TABLE_NAME; 
+
+
 
 var query = "SELECT *" + 
-"FROM \"" + DB_SCHEMA + "\".\"" + TABLE_NAME + "\" " +
+"FROM \"" + DB_SCHEMA + "\".\"" + FULL_TABLE_NAME + "\" " +
 "WHERE \"USER_ID\" = 1 " + 
 "ORDER BY \"TRAN_DATE\" ASC";
 

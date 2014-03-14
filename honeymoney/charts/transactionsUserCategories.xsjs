@@ -1,8 +1,11 @@
 var DB_SCHEMA = "DEMOUSER00";
-var TABLE_NAME = "TBL_TRANS_DATA";
+
+var NAMESPACE = "uni.vlba.honeymoney.data";
+var TRANS_TABLE_NAME = "tbl_trans_data";
+var FULL_TRANS_TABLE_NAME = NAMESPACE + "::" + TRANS_TABLE_NAME;
 
 var query = "SELECT SUM(\"AMOUNT\"), \"CATEGORY_TEXT\" " +
-		"FROM \"" + DB_SCHEMA + "\".\"" + TABLE_NAME + "\" " +
+		"FROM \"" + DB_SCHEMA + "\".\"" + FULL_TRANS_TABLE_NAME + "\" " +
 		"WHERE \"USER_ID\" = 1 "+
 		"group by \"USER_ID\", \"CATEGORY_TEXT\"";
 

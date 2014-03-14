@@ -1,0 +1,15 @@
+table.schemaName = "DEMOUSER00";
+table.tableType = COLUMNSTORE;
+table.description = "Transaction Table";
+table.columns = [
+
+          {name = "ID"; sqlType = INTEGER; nullable = false;},
+          {name = "USER_ID"; sqlType = INTEGER; nullable = false;},
+          {name = "AMOUNT" ; sqlType = DOUBLE; nullable = true; comment = "AMOUNT"; },          
+          {name = "TRAN_DATE"; sqlType = DATE; nullable = true; comment = "TRAN_DATE"; },
+          {name = "POST_DATE"; sqlType = DATE; nullable = true; comment = "POST_DATE"; },
+          {name = "CATEGORY_TEXT" ; sqlType = NVARCHAR; nullable = true; length = 50; comment = "CATEGORY_TEXT"; },
+          {name = "DESCRIPTION" ; sqlType = NVARCHAR; nullable = true; length = 100; comment = "DESCRIPTION"; }
+];
+
+table.primaryKey.pkcolumns = ["ID"];

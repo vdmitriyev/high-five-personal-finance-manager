@@ -1,8 +1,10 @@
 var DB_SCHEMA = "DEMOUSER00";
-var TABLE_NAME = "TBL_TRANS_DATA";
+var NAMESPACE = "uni.vlba.honeymoney.data";
+var TRANS_TABLE_NAME = "tbl_trans_data";
+var FULL_TRANS_TABLE_NAME = NAMESPACE + "::" + TRANS_TABLE_NAME;
 
 var query_sum = "SELECT SUM(\"AMOUNT\") as \"AMOUNT\", MONTH(\"TRAN_DATE\") AS \"MONTH_\"" +
-			"FROM \""+ DB_SCHEMA + "\".\"" + TABLE_NAME + "\" as \"TRANS\" " +
+			"FROM \""+ DB_SCHEMA + "\".\"" + FULL_TRANS_TABLE_NAME + "\" as \"TRANS\" " +
 			"where \"TRANS\".\"USER_ID\" = 1 " +
 			"group by \"TRANS\".\"USER_ID\", MONTH(\"TRAN_DATE\")";
 

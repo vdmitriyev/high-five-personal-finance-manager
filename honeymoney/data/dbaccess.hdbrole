@@ -1,0 +1,4 @@
+role uni.vlba.honeymoney.data::dbaccess {
+	
+          sql object uni.vlba.honeymoney.data::tbl_trans_data: SELECT, INSERT;
+} 

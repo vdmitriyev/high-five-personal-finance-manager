@@ -2,5 +2,6 @@
 
 service namespace "uni.vlba.honeymoney.services" {
 
-	"DEMOUSER00"."TBL_TRANS_DATA" as "transactionData"; 
+	//"DEMOUSER00"."TBL_TRANS_DATA" as "transactionData";
+	"DEMOUSER00"."uni.vlba.honeymoney.data::tbl_trans_data" as "transactionData"; 
 }

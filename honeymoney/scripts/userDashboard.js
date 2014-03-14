@@ -3,9 +3,12 @@ window.onload = function() {
 	// type 1 is for transactions
 	// type 2 is for chart 1
 	// type 3 is for chart 2
+	// type 4 is for events
 	
 	var user_id = "1";
 	var top_amount = "10";
+	var top_amount_events = "5";
+	
 	var urlListOfTransactions = "../services/transactionData.xsodata/transactionData?$filter=USER_ID%20eq%20" + user_id + "&$orderby=TRAN_DATE%20desc&$top=" + top_amount + "&$format=json";	
 	loadJSONData(urlListOfTransactions, 1);
 	
@@ -15,7 +18,13 @@ window.onload = function() {
 	var urlDataForChartPrediction =  "../charts/transactionDataPrediction.xsjs";
 	loadJSONData(urlDataForChartPrediction, 3);
 	
-	renderPredictedDataToHTMLTable();
+	var urlDataForChartPrediction =  "../charts/transactionDataPrediction.xsjs";
+	loadJSONData(urlDataForChartPrediction, 3);
+	
+	var urlListOfEvents = "../services/eventsData.xsodata/eventsData?$filter=USER_ID%20eq%20" + user_id + "&$orderby=EVENT_DATE%20asc&$top=" + top_amount_events + "&$format=json";	
+	loadJSONData(urlListOfEvents, 4);
+	
+	// renderPredictedDataToHTMLTable();
 }
 	
 function loadJSONData(url, type) {
@@ -40,6 +49,9 @@ function loadJSONData(url, type) {
 					renderDataToChart(data);
 				if (type == 3)
 					renderDataToChartPrediction(data);				
+				
+				if (type == 4)
+					renderPredictedDataToHTMLTable(data);
 			}
 		}
 
@@ -57,26 +69,15 @@ function renderDataToHTMLTable(data){
 	
 	for(var i=0;i<data["d"]["results"].length;i++){
 	        var obj = data["d"]["results"][i];	        
-	        outputHTML = outputHTML + "<tr>";
-	        
-		    	if (obj["AMOUNT"] < 0){
-	        		outputHTML = outputHTML + "<td style='color:red;'>-&euro;" + Math.abs(obj["AMOUNT"]) + "</td>";
-	        	} else {
-	        		amountTextColor = 'green';
-	        		outputHTML = outputHTML + "<td style='color:green;'>&euro;" + obj["AMOUNT"] + "</td>";
-	        	}
+	            outputHTML = outputHTML + "<tr>";
+	            
+	        	var res_amount = format_amount(obj["AMOUNT"]);
 	        	
-		       
-		        outputHTML = outputHTML + "<td>" + obj["TRAN_DATE"] + "</td>";
-		        outputHTML = outputHTML + "<td>" + obj["CATEGORY_TEXT"] + "</td>";
-		        descr = obj["DESCRIPTION"];
+	        	outputHTML = outputHTML + "<td style='color:" + res_amount.color + ";'>" + res_amount.amount + "</td>";
+		    	outputHTML = outputHTML + "<td>" + from_edm_date_to_normal(obj["TRAN_DATE"]) + "</td>";		    	
+		        outputHTML = outputHTML + "<td>" + obj["CATEGORY_TEXT"] + "</td>";		         
+		        outputHTML = outputHTML + "<td>" + format_description(obj["DESCRIPTION"], 20) + "</td>";
 		        
-		        if (descr.length > 20){
-		        	
-		        	descr = descr.substring(0,20) + '...';
-		        }
-		        
-		        outputHTML = outputHTML + "<td>" + descr + "</td>";
 	        outputHTML = outputHTML + "</tr>";	           
 	    }	 
 	
@@ -87,9 +88,7 @@ function renderDataToHTMLTable(data){
 	 makeBannerInvisible();
 } 
 
-function renderPredictedDataToHTMLTable(){
-	
-	data = JSON.parse("{\"d\":{\"results\":[{\"__metadata\": {\"uri\":\"http://hana.hb.sapij.com/innojam/team05/honeymoney/services/transactionData.xsodata/transactionData(38)\",\"type\":\"innojam.team05.honeymoney.services.transactionDataType\"},\"ID\":38,\"USER_ID\":1,\"AMOUNT\":\"-210.00\",\"TRAN_DATE\":\"2014-03-24\",\"POST_DATE\":\"2014-03-24\",\"EVENT\":\"Wedding\",\"DESCRIPTION\":\"My Sister, Good Present\"},{\"__metadata\": {\"uri\":\"http://hana.hb.sapij.com/innojam/team05/honeymoney/services/transactionData.xsodata/transactionData(31)\",\"type\":\"innojam.team05.honeymoney.services.transactionDataType\"},\"ID\":31,\"USER_ID\":1,\"AMOUNT\":\"-30.00\",\"TRAN_DATE\":\"2014-03-17\",\"POST_DATE\":\"2014-03-17\",\"EVENT\":\"BirthDay\",\"DESCRIPTION\":\"College Friend\"},{\"__metadata\": {\"uri\":\"http://hana.hb.sapij.com/innojam/team05/honeymoney/services/transactionData.xsodata/transactionData(30)\",\"type\":\"innojam.team05.honeymoney.services.transactionDataType\"},\"ID\":30,\"USER_ID\":1,\"AMOUNT\":\"-15.00\",\"TRAN_DATE\":\"2014-03-05\",\"POST_DATE\":\"2014-03-05\",\"EVENT\":\"Party\",\"DESCRIPTION\":\"Graduation\"},{\"__metadata\":{\"uri\":\"http://hana.hb.sapij.com/innojam/team05/honeymoney/services/transactionData.xsodata/transactionData(332)\",\"type\":\"innojam.team05.honeymoney.services.transactionDataType\"},\"ID\":332,\"USER_ID\":1,\"AMOUNT\":\"-15\",\"TRAN_DATE\":\"2014-03-14\",\"POST_DATE\":\"2014-03-14\",\"EVENT\":\"Party\",\"DESCRIPTION\":\"Grun Kohl Tour\", \"EVENT\": \"Party\"},{\"__metadata\":{\"uri\":\"http://hana.hb.sapij.com/innojam/team05/honeymoney/services/transactionData.xsodata/transactionData(24)\",\"type\":\"innojam.team05.honeymoney.services.transactionDataType\"},\"ID\":24,\"USER_ID\":1,\"AMOUNT\":\"-10\",\"TRAN_DATE\":\"2014-04-26\",\"POST_DATE\":\"2014-04-26\",\"EVENT\":\"BirthDay\",\"DESCRIPTION\":\"Friend of friend John\"}]}}");
+function renderPredictedDataToHTMLTable(data){
 		
 	var outputHTML = "";
 	
@@ -101,22 +100,12 @@ function renderPredictedDataToHTMLTable(){
 	        var obj = data["d"]["results"][i];	        
 	        outputHTML = outputHTML + "<tr>";
 	        
-		    	if (obj["AMOUNT"] < 0){
-	        		outputHTML = outputHTML + "<td style='color:red;'>-&euro;" + Math.abs(obj["AMOUNT"]) + "</td>";
-	        	} else {	        		
-	        		outputHTML = outputHTML + "<td style='color:green;'>&euro;" + obj["AMOUNT"] + "</td>";
-	        	}	        	
-		        
-		        outputHTML = outputHTML + "<td>" + obj["TRAN_DATE"] + "</td>";
-		        outputHTML = outputHTML + "<td>" + obj["EVENT"] + "</td>";
-		        descr = obj["DESCRIPTION"];
-		        
-		        if (descr.length > 20){
-		        	
-		        	descr = descr.substring(0,20) + '...';
-		        }
-		        
-		        outputHTML = outputHTML + "<td>" + descr + "</td>";
+	        var res_amount = format_amount(obj["AMOUNT"]);        	
+        	outputHTML = outputHTML + "<td style='color:" + res_amount.color + ";'>" + res_amount.amount + "</td>";
+	    	outputHTML = outputHTML + "<td>" + from_edm_date_to_normal(obj["EVENT_DATE"]) + "</td>";		    	
+	        outputHTML = outputHTML + "<td>" + obj["EVENT_CATEGORY"] + "</td>";		         
+	        outputHTML = outputHTML + "<td>" + format_description(obj["EVENT_DESCRIPTION"], 20) + "</td>";
+		    
 	        outputHTML = outputHTML + "</tr>";	           
 	    }	 
 	

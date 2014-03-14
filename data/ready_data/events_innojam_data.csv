@@ -1,0 +1,11 @@
+ID;USER_ID;AMOUNT;EVENT_DATE;EVENT_CATEGORY;EVENT_DESCRIPTION
+1;1;-210;2014-03-03;Wedding;My Sister, Good Present
+2;1;-15;2014-04-03;BirthDay;Something
+3;1;-15;2014-05-03;Party;RedBull
+4;1;-20;2014-05-10;Party;RedBull
+5;1;-55;2014-07-03;BirthDay;Something good
+6;2;-210;2014-03-03;Wedding;My Sister, Good Present
+7;3;-15;2014-04-03;BirthDay;Something
+8;2;-15;2014-05-03;Party;RedBull
+9;3;-20;2014-05-10;Party;RedBull
+10;4;-55;2014-04-03;Wedding;Something good

@@ -1,0 +1,18 @@
+table.schemaName = "DEMOUSER00";
+table.tableType = COLUMNSTORE;
+table.description = "Users Table";
+table.columns = [
+          {name = "ID"; sqlType = INTEGER; nullable = false;},
+          {name = "TITLE" ; sqlType = NVARCHAR; nullable = true; length = 10; comment = "TITLE"; },
+          {name = "NAME" ; sqlType = NVARCHAR; nullable = true; length = 50; comment = "NAME"; },
+          {name = "SURNAME" ; sqlType = NVARCHAR; nullable = true; length = 50; comment = "SURNAME"; },
+          {name = "BIRTHDAY"; sqlType = DATE; nullable = true; comment = "BIRTHDAY"; },
+          {name = "STREET" ; sqlType = NVARCHAR; nullable = true; length = 100; comment = "STREET"; },
+          {name = "POSTCODE" ; sqlType = NVARCHAR; nullable = true; length = 20; comment = "POSTCODE"; },
+          {name = "CITY" ; sqlType = NVARCHAR; nullable = true; length = 30; comment = "CITY"; },
+          {name = "PHONE" ; sqlType = NVARCHAR; nullable = true; length = 30; comment = "PHONE"; },
+          {name = "MAIL" ; sqlType = NVARCHAR; nullable = true; length = 50; comment = "MAIL"; },
+          {name = "DATE_OF_REGISTRATION" ; sqlType = DATE; nullable = true; comment = "DATE_OF_REGISTRATION"; }
+];
+
+table.primaryKey.pkcolumns = ["ID"];

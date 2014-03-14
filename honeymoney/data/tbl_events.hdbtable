@@ -1,0 +1,14 @@
+table.schemaName = "DEMOUSER00";
+table.tableType = COLUMNSTORE;
+table.description = "Events Table";
+table.columns = [
+
+          {name = "ID"; sqlType = INTEGER; nullable = false;},
+          {name = "USER_ID"; sqlType = INTEGER; nullable = false;},
+          {name = "AMOUNT" ; sqlType = DOUBLE; nullable = true; comment = "AMOUNT"; },          
+          {name = "EVENT_DATE"; sqlType = DATE; nullable = true; comment = "TRAN_DATE"; },          
+          {name = "EVENT_CATEGORY" ; sqlType = NVARCHAR; nullable = true; length = 50; comment = "EVENT_CATEGORY"; },
+          {name = "EVENT_DESCRIPTION" ; sqlType = NVARCHAR; nullable = true; length = 100; comment = "EVENT_DESCRIPTION"; }
+];
+
+table.primaryKey.pkcolumns = ["ID"];

@@ -1,14 +1,19 @@
 var DB_SCHEMA = "DEMOUSER00";
-var TRANS_TABLE_NAME = "TBL_TRANS_DATA";
-var USERS_TABLE_NAME = "TBL_USERS";
+
+var NAMESPACE = "uni.vlba.honeymoney.data";
+var TRANS_TABLE_NAME = "tbl_trans_data";
+var FULL_TRANS_TABLE_NAME = NAMESPACE + "::" + TRANS_TABLE_NAME;
+
+var USERS_TABLE_NAME = "tbl_users";
+var FULL_USERS_TABLE_NAME = NAMESPACE + "::" + USERS_TABLE_NAME;
 
 var query_sum = 
 " SELECT \"TBL_AMOUNT\".\"USER_SUM\", CONCAT(CONCAT(\"USERS\".\"NAME\",' '), \"USERS\".\"SURNAME\")" +
 " FROM (" +
 " SELECT sum(AMOUNT) as \"USER_SUM\", \"USER_ID\"" +
-" FROM " + DB_SCHEMA + ".\"" + TRANS_TABLE_NAME + "\"" +
+" FROM " + DB_SCHEMA + ".\"" + FULL_TRANS_TABLE_NAME + "\"" +
 "GROUP BY \"USER_ID\" "+
-") as \"TBL_AMOUNT\", \"" + DB_SCHEMA + "\".\""+ USERS_TABLE_NAME + "\" as \"USERS\"" +
+") as \"TBL_AMOUNT\", \"" + DB_SCHEMA + "\".\""+ FULL_USERS_TABLE_NAME + "\" as \"USERS\"" +
 " WHERE \"TBL_AMOUNT\".\"USER_ID\" = \"USERS\".\"ID\"";
 
 function close(closables) {  
