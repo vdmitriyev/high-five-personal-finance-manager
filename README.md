@@ -18,8 +18,18 @@ Contributors (credits):
 * Christian Weait
 * Anton Zubarev
 
+How To Start
+============
+* Create proper XS Project in SAP HANA Studio
+* Connect new created project to SAP HANA
+* Run command line and move to the created workspace with XS Project inside
+* git clone current repository
+```
+git clone https://github.com/vdmitriyev/high-five-personal-finance-manager.git
+```
+
 Project Structure
-=============
+=================
 * Directory 'data' contains ready to use data and data generators;
 * Directory 'honeymoney' contains SAP HANA Studio XS Project that must be imported into database;
 
@@ -34,7 +44,7 @@ Known Problems and Drawbacks
 ============================
 * Most parts of the code were written an hurry =).
 
-To-DO
+TO-DO
 ============================
 * Multiple users
 * SAP HANA Cloud support
