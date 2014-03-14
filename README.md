@@ -10,10 +10,10 @@ Contributors (credits):
 ======================
 * Jacob Burns ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/gb.png "Great Britain")
 * Dominik Dür ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/li.png "Liechtenstein")
-* Viktor Dmitriyev ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/kz.png "Kazakhstan") / ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/de.png "Germany")
+* Viktor Dmitriyev ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/de.png "Germany") / ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/kz.png "Kazakhstan")
 * Georg Krenn ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/at.png "Kazakhstan")
 * Breda Lever ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/si.png "Slovenia")
-* Loina Prifti ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/de.png "Germany")
+* Loina Prifti ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/de.png "Germany") / ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/al.png "Alabania")
 * Thomas Sugarev ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/gb.png "Great Britain")
 * Christian Weait ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/dk.png "Denmark")
 * Anton Zubarev ![alt text](https://raw.github.com/vdmitriyev/high-five-personal-finance-manager/readme-flags/misc/country-flags/ru.png "Russia")
