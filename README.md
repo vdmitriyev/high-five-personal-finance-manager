@@ -10,7 +10,7 @@ Contributors (credits):
 ======================
 * Jacob Burns
 * Dominik Dür
-* Viktor Dmitriyev (http://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/200px-Flag_of_Germany.svg.png)
+* Viktor Dmitriyev ![alt text](http://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/200px-Flag_of_Germany.svg.png "Germany")
 * Georg Krenn
 * Breda Lever
 * Loina Prifti
