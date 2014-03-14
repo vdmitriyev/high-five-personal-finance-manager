@@ -1,0 +1,64 @@
+<html>
+<head>
+	<title>Account Trends</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	
+	<script type="text/javascript" src="../scripts/userTrends.js"></script>
+	<script type="text/javascript" src="../scripts/external/canvasjs.min.js"></script>
+	
+</head>
+
+<body>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">High Five Banking</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+      	<p class="navbar-text">tim.innojam@mail.com</p>
+      	<li><a href="#">My accounts</a></li>
+      	<li><a href="#">My profile</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Log out</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+<div class="container">
+	<ul class="nav nav-tabs">
+  		<li><a href="dashboard.html">Dashboard</a></li>
+  		<li><a href="transactions.html">Transactions</a></li>
+  		<li class="active"><a href="trends.html">Trends</a></li>
+  		<li><a href="events.html">Events</a></li>
+  		<li><a href="suggestions.html">Suggestions</a></li>
+	</ul>
+	
+	<div id="waitBanner">
+		<center>
+			</br>
+				Please, wait until graphs and data will be loaded and rendered.</br> 
+				Thank you for your patience.
+			</br>
+		</center>
+	</div>
+	
+	<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+	
+  </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

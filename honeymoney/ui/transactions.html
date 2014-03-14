@@ -1,0 +1,101 @@
+<html>
+<head>
+
+	<title>Account Transactions</title>	
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	
+	<script type="text/javascript" src="../scripts/userTransactions.js"></script>
+	<script type="text/javascript" src="../scripts/external/canvasjs.min.js"></script>
+	
+</head>
+
+<body>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">High Five Banking</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+      	<p class="navbar-text">tim.innojam@mail.com</p>
+      	<li><a href="#">My accounts</a></li>
+      	<li><a href="#">My profile</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Log out</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+<div class="container">
+	<ul class="nav nav-tabs">
+  		<li><a href="dashboard.html">Dashboard</a></li>
+  		<li class="active"><a href="transactions.html">Transactions</a></li>
+  		<li><a href="trends.html">Trends</a></li>
+  		<li><a href="events.html">Events</a></li>
+  		<li><a href="suggestions.html">Suggestions</a></li>
+	</ul>
+
+  <!--  <button class="btn btn-primary">Add new transaction</button>  -->
+  <div id="chartContainer" style="height: 300px; width: 100%;">
+  </div>
+  
+  <div id="realTransactionsContainer">  	
+  </div>
+  
+  <table class="table table-striped" id="dummyTransactionsTable">
+    <thead>
+      <th>#</th>
+      <th>Merchant</th>
+      <th>Category</th>
+      <th>Anount</th>
+      <th>Date</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Whole foods</td>
+        <td>Groceries</td>
+        <td>($100)</td>
+        <td>Aug 11</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>CVS</td>
+        <td>Pharmacy</td>
+        <td>($56)</td>
+        <td>Aug 19</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Computer Received Tha</td>
+        <td>Credit Card payment</td>
+        <td>$200</td>
+        <td>Aug 24</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Starbucks</td>
+        <td>Coffee Shop</td>
+        <td>($10)</td>
+        <td>Sep 03</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

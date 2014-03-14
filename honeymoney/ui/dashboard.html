@@ -1,0 +1,188 @@
+<html>
+<head>
+	<title>Account Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	
+	<script type="text/javascript" src="../scripts/userDashboard.js"></script>
+	<script type="text/javascript" src="../scripts/external/canvasjs.min.js"></script>
+	
+</head>
+
+<body>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">High Five Banking</a>
+    </div>
+
+   <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+      	<p class="navbar-text">tim.innojam@mail.com</p>
+      	<li><a href="#">My accounts</a></li>
+      	<li><a href="#">My profile</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Log out</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+<div class="container">
+	<ul class="nav nav-tabs">
+  		<li class="active"><a href="dashboard.html">Dashboard</a></li>
+  		<li><a href="transactions.html">Transactions</a></li>
+  		<li><a href="trends.html">Trends</a></li>
+  		<li><a href="events.html">Events</a></li>
+  		<li><a href="suggestions.html">Suggestions</a></li>
+	</ul>
+
+		<div id="waitBanner">
+			<center>
+				</br> Please, wait until graphs and data will be loaded and rendered.</br>
+				Thank you for your patience. </br>
+			</center>
+		</div>
+
+		<div class="row">
+		<div class="col-md-4">
+		
+	
+	  <div class="panel panel-default">
+	    <div class="panel-heading">
+	      <h4 class="panel-title">
+	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+	          Account Overview
+	          <span class="pull-right">&euro;4 325.69</span>
+	        </a>
+	      </h4>
+	    </div>
+	    <div id="collapseOne" class="panel-collapse collapse in">
+	      <div class="panel-body">
+	        <div>
+	        	<h5 style="color:blue;">Recieved<span class="pull-right" style="color:black;">&euro;700</span></h5>	        	
+	        </div>
+	        <br>
+	        <div>
+	        	<h5 style="color:blue;">Spend<span class="pull-right" style="color:black;"><span style="color:red;">-&euro;255</span></span></h5>	        	
+	        </div>
+	      </div>
+	    </div>
+	  </div>  
+
+
+			
+		</div>
+
+
+
+
+<div class="col-md-8">
+	
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+          Your alerts
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFour" class="panel-collapse collapse in">
+      <div class="panel-body">
+        <table class="table table-striped">
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>You spend &euro;110 on Auto. It exceeds your budget of &euro; 100 by &euro;10</td>
+						<td>29-10-2013</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>You spend &euro;210 on Insurance. It exceeds your budget of &euro;150 by &euro;60</td>
+						<td>14-02-2014</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>You spend &euro;90 on Travel. It exceeds your budget of &euro;50$ by &euro;40</td>
+						<td>01-03-2014</td>
+					</tr>
+				</tbody>
+			</table>
+      </div>
+    </div>
+  </div>
+			
+			
+	</div>
+	</div>
+	
+ 
+	  
+		  <div class="panel panel-default">
+		    <div class="panel-heading">
+		      <h4 class="panel-title">
+		        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+		          Budget Predictions
+		        </a>
+		      </h4>
+		    </div>
+		    
+		     <div class="row">
+  				<div class="col-md-6">
+					<div id="chartContainerPrediction" style="height: 400px; width: 100%;"></div>
+				</div>
+			<div class="col-md-6">
+		    
+		    
+		    <div id="collapseFive" class="panel-collapse collapse in">
+		      <div class="panel-body">
+		         <div id="predictedTransactionsContainer"> </div>    
+		      	</div>
+		    </div>   
+		  </div>			
+	
+	</div>
+	</div>
+	
+ 
+	  
+		  <div class="panel panel-default">
+		    <div class="panel-heading">
+		      <h4 class="panel-title">
+		        <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+		          History Slice / Latest Transactions
+		        </a>
+		      </h4>
+		      
+		    </div>
+		    
+		    
+		    <div id="collapseSix" class="panel-collapse collapse in">
+		      <div class="panel-body">
+		      	 <div class="row">
+  					<div class="col-md-6"> 
+	 					<div id="chartContainer" style="height: 400px; width: 100%;"></div>
+					</div>
+					<div class="col-md-6">
+		         		<div id="realTransactionsContainer"> </div>    
+		      		</div>
+		    	</div>  
+		  		</div>		
+		
+			</div>
+	</div>
+	
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<html>
+
+<head>
+
+<title>Text Dashboards</title>
+
+
+
+<script type="text/javascript" src="../scripts/external/canvasjs.min.js"></script>
+
+
+
+<script type="text/javascript">
+
+	var data = null;
+	
+	window.onload = function() {
+
+		loadJSONData();
+		
+	}	
+
+	function loadJSONData() {
+
+		var xmlhttp;
+
+		if (window.XMLHttpRequest) {
+			// code for IE7+, Firefox, Chrome, Opera, Safari
+			xmlhttp = new XMLHttpRequest();
+		} else {
+			// code for IE6, IE5
+			xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+		}
+
+		xmlhttp.onreadystatechange = function() {
+			if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+				
+				json = xmlhttp.responseText;
+				data = JSON.parse(json);				
+				
+				// document.getElementById("data").innerHTML = document.getElementById("data").innerHTML + json;                 
+                // document.getElementById("data").innerHTML = document.getElementById("data").innerHTML + data;
+				
+				renderData(data);
+			}
+		}
+
+		// xmlhttp.open("GET", "http://hana.hb.sapij.com/innojam/team05/honeymoney/charts/transactionData.xsjs", true);
+		// xmlhttp.open("GET", "http://hana.hb.sapij.com/innojam/team05/honeymoney/charts/transactionsUserCategories.xsjs", true);
+		xmlhttp.open("GET", "http://hana.hb.sapij.com/innojam/team05/honeymoney/charts/transactionDataPrediction.xsjs", true);
+		xmlhttp.send();
+	}
+
+	
+	
+	function renderData(){
+		
+		var pieChart = new CanvasJS.Chart("pieChartContainer", data);
+		
+		
+		pieChart.render();
+
+		//barChart.render();
+	
+	}
+	
+</script>
+
+</head>
+
+<body>
+
+
+	
+	<div id="pieChartContainer" style="height: 300px; width: 100%;"></div>
+
+	<div id="barChartContainer" style="height: 300px; width: 100%;"></div>
+	
+	<div id="barChartContainer" style="height: 300px; width: 100%;"></div>
+	
+	<div id="data" style="height: 300px; width: 100%;"></div>
+
+
+
+</body>
+
+</html>

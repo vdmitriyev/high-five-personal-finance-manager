@@ -1,0 +1,6 @@
+//service namespace "innojam.team05.honeymoney.services"{
+
+service namespace "uni.vlba.honeymoney.services" {
+
+	"DEMOUSER00"."TBL_TRANS_DATA" as "transactionData"; 
+}
