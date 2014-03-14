@@ -26,10 +26,17 @@ Project Structure
 Data Import
 ===========
 * Data should be imported from /data/ready_data/*
-* How to import data to SAP HANA from local CSV please check this [link](https://github.com/vdmitriyev/saphana-demos-bi2course-vlba/blob/master/demo-import-csv-data/import-csv-data.pdf)
+* How to import data to SAP HANA from local CSV please check this [pdf](https://github.com/vdmitriyev/saphana-demos-bi2course-vlba/blob/master/demo-import-csv-data/import-csv-data.pdf)
 * Schema that is used by default is "DEMOUSER00"
-* Table names: TBL_TRANS_DATA, TBL_USERS
+* Table names: "TBL_TRANS_DATA", "TBL_USERS"
 
 Known Problems and Drawbacks
 ============================
 * Most parts of the code were written an hurry =).
+
+To-DO
+============================
+* Multiple users
+* SAP HANA Cloud support
+* Data import automation
+
