@@ -1,4 +1,6 @@
-role uni.vlba.honeymoney.data::dbaccess {
+role <sap-hana-cloud-username>trial.cloudhoneymoney.honeymoney.data::dbaccess {
 	
-          sql object uni.vlba.honeymoney.data::tbl_trans_data: SELECT, INSERT;
+          sql object <sap-hana-cloud-username>trial.cloudhoneymoney.honeymoney.data::tbl_trans_data: SELECT, INSERT;
+          sql object <sap-hana-cloud-username>trial.cloudhoneymoney.honeymoney.data::tbl_events: SELECT, INSERT;
+          sql object <sap-hana-cloud-username>trial.cloudhoneymoney.honeymoney.data::tbl_users: SELECT, INSERT;
 } 

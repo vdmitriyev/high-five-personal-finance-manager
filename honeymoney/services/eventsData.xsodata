@@ -1,6 +1,6 @@
 //service namespace "innojam.team05.honeymoney.services"{
 
-service namespace "uni.vlba.honeymoney.services" {
+service {
 
-	"DEMOUSER00"."uni.vlba.honeymoney.data::tbl_events" as "eventsData"; 
+	"<sap-hana-cloud-schema-name>"."<sap-hana-cloud-username>trial.cloudhoneymoney.honeymoney.data::tbl_events" as "eventsData"; 
 }

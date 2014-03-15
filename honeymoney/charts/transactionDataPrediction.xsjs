@@ -5,8 +5,8 @@
 
 // var DB_SCHEMA = "TEAM05";
 
-var DB_SCHEMA = "DEMOUSER00";
-var NAMESPACE = "uni.vlba.honeymoney.data";
+var DB_SCHEMA = "<sap-hana-cloud-schema-name>";
+var NAMESPACE = "<sap-hana-cloud-username>trial.cloudhoneymoney.honeymoney.data";
 var TABLE_NAME = "tbl_trans_data";
 var FULL_TABLE_NAME = NAMESPACE + "::" + TABLE_NAME; 
 

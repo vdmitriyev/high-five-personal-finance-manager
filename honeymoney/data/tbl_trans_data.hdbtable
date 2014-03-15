@@ -1,4 +1,4 @@
-table.schemaName = "DEMOUSER00";
+table.schemaName = "<sap-hana-cloud-schema-name>";
 table.tableType = COLUMNSTORE;
 table.description = "Transaction Table";
 table.columns = [

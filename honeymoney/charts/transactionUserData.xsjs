@@ -1,5 +1,5 @@
-var DB_SCHEMA = "DEMOUSER00";
-var NAMESPACE = "uni.vlba.honeymoney.data";
+var DB_SCHEMA = "<sap-hana-cloud-schema-name>";
+var NAMESPACE = "<sap-hana-cloud-username>trial.cloudhoneymoney.honeymoney.data";
 var TRANS_TABLE_NAME = "tbl_trans_data";
 var FULL_TRANS_TABLE_NAME = NAMESPACE + "::" + TRANS_TABLE_NAME;
 
