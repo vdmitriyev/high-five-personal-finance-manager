@@ -58,9 +58,9 @@ How to Run "HoneyMoney" inside SAP HANA Cloud Platform
 * During step 3 while creating project give a name to the project "honeymoney"
 * Go to the workspace with created project (must contain "._SYS_REGI_settings" and "&lt;username&gt;trial" directories)
 * Inside directory "&lt;username&gt;trial" remove directory "cloudhoneymoney"
-* After removing directory "cloudhoneymoney" execute following command:
+* After removing directory "cloudhoneymoney" execute following command (cloning branch for cloud):
 ```
-git clone https://github.com/vdmitriyev/high-five-personal-finance-manager.git cloudhoneymoney
+git clone -b cloud-version https://github.com/vdmitriyev/high-five-personal-finance-manager.git cloudhoneymoney
 ```
 * Go back to SAP HANA Studio and refresh it, now you have to see file from project that are extracted from github
 * Deploy files from XS Project(the name of the project should be "honeymoney") to SAP HANA Cloud [deploy files only from "honeymoney" subdirectory !!!]
