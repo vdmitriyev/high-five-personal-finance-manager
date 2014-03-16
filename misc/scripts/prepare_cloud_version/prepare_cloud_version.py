@@ -2,8 +2,7 @@
 from folder_iterator import FolderIterator
 import fileinput, string, sys
 
-# PROJECT_DIR = '../../../honeymoney/'
-PROJECT_DIR = '../../../honeymoney/data/sql-scripts/'
+PROJECT_DIR = '../../../honeymoney/'
 
 CLOUD_USER_NAME = '<YOUR_CLOUD_USER_NAME>' # withou trial
 CLOUD_SCHEMA_NAME = '<YOUR_CLOUD_SCHEMA_NAME>' # that is given by 'neo' tool from SAP HANA Cloud SDK
@@ -28,7 +27,7 @@ class PrepeareCloudVersion():
 		fi = FolderIterator()
 		self.proj_files = fi.iterate_through_catalog(PROJECT_DIR)
 
-		print self.proj_files
+		# print self.proj_files
 
 	def replace_in_file(sel, proj_file, search, replace, rewrite=True):
 		"""
