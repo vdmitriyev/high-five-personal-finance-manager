@@ -9,10 +9,10 @@ function from_edm_date_to_normal(input_date){
 	var day = (dateValue.getDate() + 1);
 	var month = (dateValue.getMonth() + 1);
 	
-	if (dateValue.getDate() < 10)
+	if (day < 10)
 		day = '0' + (dateValue.getDate() + 1); 
 	
-	if (dateValue.getMonth() < 10)
+	if (month < 10)
 		month = '0' + (dateValue.getMonth() + 1);	
 	
 	return  day + '.' + month + '.' + dateValue.getFullYear();
